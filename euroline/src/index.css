@@ -59,6 +59,8 @@ body {
   margin-right: auto;
   font-size: 140px;
   color: #fff;
+  font-style: italic;
+  margin-top: 2%;
 }
 .home span{
   color: var(--blueMain);
@@ -75,7 +77,10 @@ body {
   background: var(--buttonGradient);
   border: none;
   font-size: 1rem;
-  margin-top: -300px;
+  margin-top: -200px;
+}
+#seeOptions:hover{
+  cursor: pointer;
 }
 .contentHome{
   margin: 0;
@@ -91,9 +96,71 @@ body {
 /*FLEET*/
 .fleet{
   height: 100vh;
+  background-color: #fff;
 }
 .fleet h1{
-  color: #fff;
+  color: #1e1e1e;
   text-align: center;
   font-size: 90px;
+  margin-top: 0;
+  padding: 50px;
+  font-style: italic;
+}
+/*CAR BLOCK*/
+.carBlocks{
+  display: flex;
+  justify-content: center;
+}
+.carBlock img{
+  width: 100%;
+  height: auto;
+}
+.carBlock{
+  width: 400px;
+  height: 650px;
+  outline: 6px solid var(--blueMain);
+  border-radius: 30px;
+  margin: 20px;
+  margin-top: 0;
+  background-color: #eeeeee;
+}
+.carBlock h1{
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+.carBlock h2{
+  text-align: center;
+  margin: 0;
+  justify-content: center;
+}
+.buttonDiv{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.buttonCards{
+  width: 10vw;
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--buttonGradient);
+  border: none;
+  font-size: 1rem;
+}
+.buttonCards:hover{
+  cursor: pointer !important;
+}
+
+/*WHY US*/
+.whyUs{
+  display: flex;
+  height: 150vh;
+  background-color: #fff;
+  justify-content: center;
+  padding: 300px;
+}
+.whyUs .left h1, .whyUs .right h1{
+  padding: 40px;
 }

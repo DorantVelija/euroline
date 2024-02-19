@@ -1,7 +1,6 @@
 import mainCar from './carMain.png';
-const handleClick = () => {
-    
-}
+
+
 const Home = () => {
     return (   
         <div className="home">
@@ -10,7 +9,7 @@ const Home = () => {
                 <img src={mainCar} alt="" id='carMain' /> 
             </div>
             <div className="button">
-                <button id="seeOptions" onclick={handleClick}>SEE OPTIONS</button>
+                <button id="seeOptions">SEE OPTIONS</button>
             </div>
 
            

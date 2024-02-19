@@ -1,6 +1,7 @@
 import Navbar from './navbar';
 import Home from './Home';
 import OurFleet from './OurFleet';
+import WhyUs from './WhyUs';
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
     <Navbar />
       <div className="content">
         <Home />
-      <OurFleet />
+        <OurFleet />
+        <WhyUs />
       </div>
     </div>
   );
