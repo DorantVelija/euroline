@@ -2,6 +2,7 @@ import Navbar from './navbar';
 import Home from './Home';
 import OurFleet from './OurFleet';
 import WhyUs from './WhyUs';
+import Footer from './footer';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <OurFleet />
         <WhyUs />
       </div>
+      <Footer />
     </div>
   );
 

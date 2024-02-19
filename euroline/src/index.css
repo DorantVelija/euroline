@@ -48,7 +48,7 @@ body {
 /*HOME STUFF*/
 .home{
   margin: 0;
-  width: 100vw;
+  width: 100%;
   background: rgb(51,51,51);
   background: var(--bgGradient);
   height: 100vh;
@@ -163,4 +163,46 @@ body {
 }
 .whyUs .left h1, .whyUs .right h1{
   padding: 40px;
+}
+
+
+
+/*FOOTER*/
+footer{
+  width: 100%;
+  background-color: var(--blueMain);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.footeritem{
+  padding: 10px 15px 0px 15px;
+  color: var(--colorBgLight);
+  text-decoration: none;
+}
+.footeritem:hover{
+  cursor: pointer;
+}
+.footerUl{
+  padding-top: 20px;
+}
+#footerLeft{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 0;
+}
+#footerRight{ 
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 0;
+}
+#mainFooterText{
+  font-weight: 900;
+  font-size: 1.7rem;
 }
