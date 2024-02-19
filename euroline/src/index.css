@@ -162,7 +162,12 @@ body {
   padding: 300px;
 }
 .whyUs .left h1, .whyUs .right h1{
+  font-size: 3.5rem;
+  line-height: 52px;
+  font-style: italic;
   padding: 40px;
+  margin: 0px;
+  margin-bottom: 20px;
   padding-left: 0;
   padding-bottom: 0;
 }
@@ -170,12 +175,15 @@ body {
   padding: 40px;
 }
 .whyUs .right{
-  padding-top:235px;;
+  padding-top:15%;
 }
 .whyUs p{
   margin: 0;
   font-size: 1.3rem;
+  font-style: italic;
   text-align: justify;
+  line-height: 24px;
+  font-weight: 500;
 }
 
 
@@ -213,7 +221,7 @@ footer{
   align-content: space-between;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-right: 0;
+  margin-right: 50px;
 }
 #mainFooterText{
   font-weight: 900;
