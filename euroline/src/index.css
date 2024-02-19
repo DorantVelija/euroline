@@ -156,13 +156,26 @@ body {
 /*WHY US*/
 .whyUs{
   display: flex;
-  height: 150vh;
+  height: 100vh;
   background-color: #fff;
   justify-content: center;
   padding: 300px;
 }
 .whyUs .left h1, .whyUs .right h1{
   padding: 40px;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+.whyUs .left , .whyUs .right{
+  padding: 40px;
+}
+.whyUs .right{
+  padding-top:235px;;
+}
+.whyUs p{
+  margin: 0;
+  font-size: 1.3rem;
+  text-align: justify;
 }
 
 
