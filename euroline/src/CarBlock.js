@@ -7,8 +7,9 @@ const CarBlock = (props) => {
             <img src={ img } alt="" />
             <h1>{ name }</h1>
             <h2>{ price }$/day</h2>
+
             <div className='buttonDiv'>
-            <button className='buttonCards'>BOOK NOW</button>
+                <button className='buttonCards'>BOOK NOW</button>
             </div>
             <div className='buttonDiv'>
                 <button className='buttonCards'>VIEW</button>
