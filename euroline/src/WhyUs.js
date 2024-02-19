@@ -22,7 +22,7 @@ const WhyUs = () => {
                     <img src={twoPic} alt="" />     
                     <h1>Diverse Fleet:</h1>
               </div>
-                <p>Choose from a diverse fleet of well-maintained vehicles, ranging from compact cars to spacious SUVs, catering to various preferences and requirements.</p>
+                <p id='diverseFleet'>Choose from a diverse fleet of well-maintained vehicles, ranging from compact cars to spacious SUVs, catering to various preferences and requirements.</p>
                
                <div className="text">
                     <img src={threePic} alt="" />    

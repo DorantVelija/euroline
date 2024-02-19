@@ -183,9 +183,12 @@ body {
   font-size: 1.2rem;
   font-style: italic;
   text-align: justify;
-  line-height: 24px;
+  line-height: 20px;
   font-weight: 500;
   padding-left: 90px;
+}
+#diverseFleet{
+  margin-top: -30px;
 }
 .whyUs .text{
   display: flex;
