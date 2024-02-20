@@ -78,9 +78,11 @@ body {
   border: none;
   font-size: 1.2rem;
   margin-top: -200px;
+  transition: 200ms ease-out;
 }
 #seeOptions:hover{
   cursor: pointer;
+  scale: 1.05;
 }
 .contentHome{
   margin: 0;
@@ -99,12 +101,17 @@ body {
   background-color: #fff;
 }
 .fleet h1{
-  color: #1e1e1e;
+  color: #1e1e1e;  
   text-align: center;
   font-size: 90px;
   margin-top: 0;
   padding: 50px;
   font-style: italic;
+}
+#titleFleet{
+  background: -webkit-linear-gradient(#4079E3, #1a428b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*CAR BLOCK*/
 .carBlocks{
@@ -118,7 +125,7 @@ body {
 .carBlock{
   width: 400px;
   height: 650px;
-  outline: 6px solid var(--blueMain);
+ /* outline: 6px solid var(--blueMain);*/
   border-radius: 30px;
   margin: 20px;
   margin-top: 0;
