@@ -10,9 +10,11 @@ const Footer = () => {
       </ul>
 
       <ul className="footerUl" id="footerRight">
+        <a className="footeritem" id="mainFooterText">EuroLine</a>
         <a className="footeritem">Contact</a>
         <a className="footeritem">+389-70-633-941</a>
         <a className="footeritem">+389-70-618-165</a>
+        <a href="/" className="footeritem">eurolinerentacar@gmail.com</a>
       </ul>
     </footer>
      );

@@ -12,7 +12,7 @@ const CarBlock = (props) => {
                 <button className='buttonCards'>BOOK NOW</button>
             </div>
             <div className='buttonDiv'>
-                <button className='buttonCards'>VIEW</button>
+                <button className='buttonCardsV'>VIEW &#8599;</button>
             </div>
         </div>
      );

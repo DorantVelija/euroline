@@ -152,7 +152,7 @@ body {
 .buttonCards{
   width: 10vw;
   padding: 15px;
-  border-radius: 20px;
+  border-radius: 15px;
   font-weight: 600;
   color: #fff;
   background: var(--buttonGradient);
@@ -161,6 +161,19 @@ body {
 }
 .buttonCards:hover{
   cursor: pointer !important;
+}
+.buttonCardsV{
+  width: 10vw;
+  padding: 15px;
+  border-radius: 15px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(0deg,  rgba(14, 17, 24, 1) 0%, rgba(58, 66, 82, 1) 100%);
+  border: none;
+  font-size: 1rem;
+}
+.buttonCardsV:hover{
+  cursor: pointer;
 }
 
 /*WHY US*/
@@ -223,8 +236,7 @@ footer{
   width: 100%;
   padding-top: 25px;
   padding-bottom: 50px;
-  background: #4079e3;
-  background-color: linear-gradient(0deg,  rgba(0,52,150,1) 0%, rgba(64,121,227,1)100%);
+  background: linear-gradient(0deg,  rgb(0, 75, 214) 0%, rgba(64,121,227,1)100%);
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -261,5 +273,4 @@ footer{
   font-weight: 900;
   font-size: 1.7rem;
 }
-
 
