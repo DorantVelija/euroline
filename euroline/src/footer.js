@@ -5,8 +5,8 @@ const Footer = () => {
         <a className="footeritem" id="mainFooterText" href="https://dorantvelija.com/">Dorant Velija 2024</a>
         <a className="footeritem" href="https://dorantvelija.com/contact">Contact</a>
         <a className="footeritem" href="https://github.com/DorantVelija/">Github</a>
-        <a class="footeritem" href="https://linkedin.com/DorantVelija">LinkedIn</a>
-        <a class="footeritem" href="https://dorantvelija.com/contact">Email</a>
+        <a className="footeritem" href="https://linkedin.com/DorantVelija">LinkedIn</a>
+        <a className="footeritem" href="https://dorantvelija.com/contact">Email</a>
       </ul>
 
       <ul className="footerUl" id="footerRight">
