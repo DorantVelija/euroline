@@ -11,7 +11,7 @@ function App() {
 
   const scrollToOptions = () => {
     if (fleetRef.current) {
-        fleetRef.current.scrollIntoView({ behavior: 'smooth' });
+        fleetRef.current.scrollIntoView({ behavior: 'smooth'});
     } 
   };
 

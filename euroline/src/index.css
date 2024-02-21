@@ -52,7 +52,6 @@ body {
   background: rgb(51,51,51);
   background: var(--bgGradient);
   height: 100vh;
-
   animation: home-load 1500ms;
 }
 .home h1{
@@ -73,18 +72,21 @@ body {
 }
 #seeOptions{
   padding: 15px 20px;
-  border-radius: 15px;
+  border-radius: 10px;
   font-weight: 600;
   color: #fff;
-  background: var(--buttonGradient);
-  border: none;
+  background: var(--bgGradient);
+  border: 4px solid var(--blueMain);
   font-size: 1.2rem;
   margin-top: -200px;
-  transition: 200ms ease-out;
+  transition: 500ms ease-in-out;
 }
 #seeOptions:hover{
   cursor: pointer;
-  scale: 1.05;
+ /* scale: 1.05;*/
+  border: none !important;
+  padding: 19px 24px;
+  background: var(--buttonGradient);
 }
 .contentHome{
   margin: 0;
@@ -133,7 +135,11 @@ body {
   border-radius: 30px;
   margin: 20px;
   margin-top: 0;
-  background-color: #eeeeee;
+  background: rgba(255,255,255, 1);
+  background: radial-gradient(circle, rgba(255,255,255,0.7) 0%, rgba(240, 240, 240, 0.7) 100%);
+  box-shadow: -13px 15px 24px 0px rgba(237,237,237,0.75);
+  -webkit-box-shadow: -13px 15px 24px 0px rgba(237,237,237,0.75);
+  -moz-box-shadow: -13px 15px 24px 0px rgba(237,237,237,0.75);
   animation: car-block-load both ease-in-out;
   animation-timeline: view();
 }
@@ -188,7 +194,7 @@ body {
   height: 100vh;
   background-color: #fff;
   justify-content: center;
-  padding: 300px;
+  padding: 200px;
   background-size: cover;
 }
 .whyUs .left h1, .whyUs .right h1{
@@ -203,6 +209,8 @@ body {
 .whyUs .left , .whyUs .right{
   padding: 40px;
   width: 26vw;
+  animation: why-us-load linear ;
+  animation-timeline: view();
 }
 .whyUs .right{
   padding-top:17%;
@@ -298,12 +306,31 @@ footer{
 
   0%{
     opacity: 0;
-    transform: translateX(-40%);
+    transform: translateX(-80%);
     scale: 1.1;
+  }
+  35%{
+    transform: translateX(5%);
   }
   40%{
     opacity: 1;
     transform: translateX(0);
     scale: 1;
+  }
+}
+
+@keyframes why-us-load{
+  0%{
+    scale: 0.95;
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  20%{
+    opacity: 0;
+  }
+  55%{
+    scale: 1;
+    opacity: 1;
+    transform: translateY(1);
   }
 }
