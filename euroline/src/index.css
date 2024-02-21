@@ -52,6 +52,8 @@ body {
   background: rgb(51,51,51);
   background: var(--bgGradient);
   height: 100vh;
+
+  animation: home-load 1500ms;
 }
 .home h1{
   text-align: center;
@@ -70,8 +72,8 @@ body {
   margin-top: -100px;
 }
 #seeOptions{
-  padding: 20px;
-  border-radius: 20px;
+  padding: 15px 20px;
+  border-radius: 15px;
   font-weight: 600;
   color: #fff;
   background: var(--buttonGradient);
@@ -112,6 +114,8 @@ body {
   background: -webkit-linear-gradient(#4079E3, #1a428b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: home-load ease-in-out;
+  animation-timeline: view();
 }
 /*CAR BLOCK*/
 .carBlocks{
@@ -130,6 +134,8 @@ body {
   margin: 20px;
   margin-top: 0;
   background-color: #eeeeee;
+  animation: car-block-load ease-in-out;
+  animation-timeline: view();
 }
 .carBlock h1{
   font-size: 3rem;
@@ -274,3 +280,30 @@ footer{
   font-size: 1.7rem;
 }
 
+
+
+@keyframes home-load{
+
+  0%{
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  100%{
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+@keyframes car-block-load{
+
+  0%{
+    opacity: 0;
+    transform: translateX(-50%);
+    scale: 1.2;
+  }
+  40%{
+    opacity: 1;
+    transform: translateX(0);
+    scale: 1;
+  }
+}

@@ -2,10 +2,11 @@ import CarBlock from './CarBlock';
 import carRed from './carRed.png';
 import passat from './passat.png';
 import audi from './audi.png';
+import React from 'react';
 
-const OurFleet = () => {
+const OurFleet = ({innerRef}) => {
     return (  
-        <div className="fleet">
+        <div className="fleet" ref={innerRef}>
             <h1 id="titleFleet">OUR FLEET</h1>
             <div className="carBlocks">
                 <CarBlock carName="VW GOLF 7" carPrice="75" carImg={carRed}/>

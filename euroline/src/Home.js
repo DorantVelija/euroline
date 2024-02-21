@@ -1,7 +1,8 @@
 import mainCar from './carMain.png';
 
 
-const Home = () => {
+const Home = ({scrollToOptions}) => {
+    
     return (   
         <div className="home">
         <h1>NEED A <span>CAR?</span></h1>
@@ -9,7 +10,7 @@ const Home = () => {
                 <img src={mainCar} alt="" id='carMain' /> 
             </div>
             <div className="button">
-                <button id="seeOptions">SEE OPTIONS</button>
+                <button id="seeOptions" onClick={scrollToOptions}>SEE OPTIONS</button>
             </div>
 
            
