@@ -209,10 +209,14 @@ body {
 .whyUs .left , .whyUs .right{
   padding: 40px;
   width: 26vw;
-  animation: why-us-load linear ;
+}
+.whyUs .left{
+  animation: why-us-left linear;
   animation-timeline: view();
 }
 .whyUs .right{
+  animation: why-us-right linear;
+  animation-timeline: view();
   padding-top:17%;
 }
 .whyUs p{
@@ -319,18 +323,38 @@ footer{
   }
 }
 
-@keyframes why-us-load{
+
+@keyframes why-us-left{
   0%{
     scale: 0.95;
     opacity: 0;
     transform: translateY(10%);
+    transform: translateX(-30%);
   }
   20%{
     opacity: 0;
   }
-  55%{
+  50%{
     scale: 1;
     opacity: 1;
     transform: translateY(1);
+    transform: translateY(0);
+  }
+}
+@keyframes why-us-right{
+  0%{
+    scale: 0.95;
+    opacity: 0;
+    transform: translateY(10%);
+    transform: translateX(30%);
+  }
+  20%{
+    opacity: 0;
+  }
+  50%{
+    scale: 1;
+    opacity: 1;
+    transform: translateY(1);
+    transform: translateY(0);
   }
 }
