@@ -14,7 +14,7 @@ const Footer = () => {
         <a className="footeritem">Contact</a>
         <a className="footeritem">+389-70-633-941</a>
         <a className="footeritem">+389-70-618-165</a>
-        <a href="/" className="footeritem">eurolinerentacar@gmail.com</a>
+        <a href="mailto:eurolinerentacar@gmail.com" className="footeritem">eurolinerentacar@gmail.com</a>
       </ul>
     </footer>
      );
