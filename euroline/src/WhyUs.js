@@ -8,8 +8,9 @@ import sixPic from './6.png'
 
 
 const WhyUs = () => {
-    return ( 
-        <div className="whyUs">
+    return (
+            <div className="whyUs">
+                <h1></h1>
             <div className="left">
 
                 <div className="text">
@@ -68,7 +69,7 @@ const WhyUs = () => {
             </div>
         </div>
        
-     );
+);
 }
  
 export default WhyUs;
