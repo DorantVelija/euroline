@@ -7,7 +7,7 @@ const Home = ({scrollToOptions}) => {
         <div className="home">
         <h1>NEED A <span>CAR?</span></h1>
             <div className="contentHome">
-                <img src={mainCar} alt="" id='carMain' /> 
+                <img src={mainCar} alt="" id='carMain' draggable="false"  /> 
             </div>
             <div className="button">
                 <button id="seeOptions" onClick={scrollToOptions}>SEE OPTIONS</button>

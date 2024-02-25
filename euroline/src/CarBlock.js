@@ -1,12 +1,15 @@
 
 const CarBlock = (props) => {
-    const name = props.carName, price = props.carPrice, img = props.carImg;
+    const name = props.carName, price = props.carPrice, img = props.carImg, idA = props.idCar;
+    const offer = props.offer;
 
     return ( 
-        <div className='carBlock'>
-            <img src={ img } alt="" />
+        <div className='carBlock' id={idA}>
+            <img src={ img } alt="" draggable="false" />
             <h1>{ name }</h1>
             <h2>{ price }$/day</h2>
+
+            <h2 id="offer"> { offer }</h2>
 
             <div className='buttonDiv'>
                 <button className='buttonCards'>BOOK NOW</button>
