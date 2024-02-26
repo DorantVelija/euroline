@@ -23,7 +23,7 @@ const Footer = () => {
       <ul className="footerUl" id="footerLeft">
         <a href="https://dorantvelija.com/contact" className="footeritem" id="euroLineFooterTitle">Contact</a>
         <a className="footeritem" href="https://github.com/DorantVelija/">Github</a>
-        <a className="footeritem" href="https://linkedin.com/DorantVelija">LinkedIn</a>
+        <a className="footeritem" href="https://linkedin.com/in/DorantVelija">LinkedIn</a>
         <a className="footeritem" href="https://dorantvelija.com/contact">Email</a>
       </ul>
 
