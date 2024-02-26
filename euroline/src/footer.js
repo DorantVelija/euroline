@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="footerContainer">
         <div className="footerUl" id="footerLeft2">
                 <div className="footerTop">
-                  <img src={logo} alt="" id='footerImg' />
+                  <img src={logo} alt="" id='footerImg' draggable="false" />
                 </div>
 
                 <div className="footerBottom">
@@ -42,9 +42,9 @@ const Footer = () => {
 
         <a href="" className="footeritem" id="euroLineFooterTitle">Social Media</a>
         <div>
-          <a href='https://www.instagram.com/rentacareuroline/'><img src={instagram} alt="" className='socials'/> </a> 
-          <a href=''><img src={facebook} alt="" className='socials' /></a>
-          <a href=''><img src={whatsapp} alt="" className="socials" /></a>
+          <a href='https://www.instagram.com/rentacareuroline/'><img src={instagram} alt="" className='socials' draggable="false"/> </a> 
+          <a href=''><img src={facebook} alt="" className='socials' draggable="false"/></a>
+          <a href=''><img src={whatsapp} alt="" className="socials" draggable="false"/></a>
         </div>
         </ul>
         </div>

@@ -364,7 +364,13 @@ footer h1{
 .footerTop, .footerBottom{
   height: 50%;
 }
-
+hr{
+  width: 90vw;
+  height: 2px;
+  outline: none;
+  background-color: #fff;
+  border-radius: 5px;
+}
 #footerRight{ 
   display: flex;
   flex-direction: column;
