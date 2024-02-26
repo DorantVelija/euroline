@@ -33,8 +33,8 @@ const Footer = () => {
       <ul className="footerUl" id="footerRight">
         <a className="footeritem" id="euroLineFooterTitle">EuroLine</a>
         <a className="footeritem">Contact</a>
-        <a className="footeritem">+389-70-633-941</a>
-        <a className="footeritem">+389-70-618-165</a>
+        <a className="footeritem" href="tel:0038970633941">+389-70-633-941</a>
+        <a className="footeritem" href='tel:0038970618165'>+389-70-618-165</a>
         <a href="mailto:eurolinerentacar@gmail.com" className="footeritem">eurolinerentacar@gmail.com</a>
       </ul>
 
