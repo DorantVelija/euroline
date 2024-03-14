@@ -24,8 +24,8 @@ To explore our fleet and book your next rental vehicle:
 [Include a brief description of the company, its mission, and any additional information that sets the service apart.]
 
 ## Contact Information
-For inquiries, assistance, or support, please contact us at [insert contact details].
+For inquiries, assistance, or support, please contact us at.
 
 ## Disclaimer
-[Include any necessary disclaimers or legal information.]
+
 
