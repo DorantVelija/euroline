@@ -1,6 +1,6 @@
-# WORK IN PROGRESS
+# ****WORK IN PROGRESS***
 
-## Car Rental Service Website
+# EuroLine Tetovo Car Rental Service Website
 
 ## Introduction
 This is a website showcasing a car rental service, offering a diverse fleet of vehicles to cater to various transportation needs. Whether for short-term rentals, business trips, vacations, or daily commuting, our service aims to provide convenience, reliability, and value for our customers.
@@ -18,6 +18,8 @@ To explore our fleet and book your next rental vehicle:
 3. Select your preferred vehicle and rental dates.
 4. Reserve your vehicle with ease.
 
+
+![GIF](https://github.com/DorantVelija/euroline/blob/main/ezgif.com-animated-gif-maker.gif)
 ## About Us
 [Include a brief description of the company, its mission, and any additional information that sets the service apart.]
 
