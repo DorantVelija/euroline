@@ -12,7 +12,14 @@ import {useParams} from "react-router-dom";
 
 const CarPage = () => {
     const {img, price, brand,name, id } = useParams()
+    const [url, setUrl] = useState('');
 
+    useEffect(() => {
+        // Replace 'https://api.example.com/data' with your API endpoint
+        fetch('https://picsum.photos/400/')
+            .then(response => response.json())
+            .then(data => setUrl(data.url));
+    }, []);
 
     return (
 

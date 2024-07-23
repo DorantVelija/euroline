@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import logo from '../assets/logo-euroline.png';
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+
     function handleClick(){
+
         let nav = document.getElementById('mobileNav')
 
         if (nav.classList.contains('flex')) {
@@ -14,6 +16,10 @@ const Navbar = () => {
             nav.classList.add('flex')
         }
     }
+    useEffect(() => {
+        let nav = document.getElementById('mobileNav');
+            nav.classList.add('hidden');
+    }, []);
 
     return(
         <nav className="bg-gray-900 py-3">
@@ -26,7 +32,7 @@ const Navbar = () => {
             </ul>
 
             <ul className="justify-between items-center max-w-3xl mx-auto text-white cursor-pointer flex md:hidden">
-                <div onClick={() => handleClick()} className="p-4">
+                <div onClick={ handleClick } className="p-4">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                         <path fill="currentColor" d="M3 6h18v2H3V6zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/>
                     </svg>
