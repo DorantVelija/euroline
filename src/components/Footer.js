@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="bg-gray-900 text-white py-20 px-4 flex flex-col items-stretch justify-center">
             <div className="flex flex-col md:flex-row justify-evenly items-start">
                 <div>
-                    <img src={logo} alt="" className="max-w-xs" draggable="false"/>
+                    <img src={logo} alt="" className="max-md:w-64 max-w-xs" draggable="false"/>
                 </div>
                 <div>
                     <ul className="space-y-2">

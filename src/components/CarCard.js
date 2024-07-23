@@ -9,23 +9,21 @@ const CarCard = ({img,name,brand,price, year, position}) => {
 
 
 
-    const baseStyles = "flex flex-col bg-gray-100 items-center " +
-        " rounded-xl pb-8  " +
-        "transition duration-200 my-3 md:mx-2 " +
-        "shadow-xl border-2 hover:border-blue-400"
+    const baseStyles = "flex flex-col bg-gray-100 items-center rounded-xl pb-8 " +
+        " transition duration-200 md:my-3 md:mx-2 shadow-xl border-2 hover:border-blue-400 max-sm:scale-90 max-md:scale-75"
     const positionStyle = {
-        left: 'opacity-50 hover:opacity-100 xl:translate-x-8 md:hover:translate-x-2 xl:scale-95',
-        right: 'opacity-50 hover:opacity-100 xl:-translate-x-8 md:hover:-translate-x-2 xl:scale-95',
-        center: 'opacity-50 hover:opacity-100 xl:opacity-100 z-10'
+        left: 'xl:opacity-50 xl:hover:opacity-100 xl:translate-x-8 xl:hover:translate-x-2 xl:scale-95',
+        right: 'xl:opacity-50 xl:hover:opacity-100 xl:-translate-x-8 xl:hover:-translate-x-2 xl:scale-95',
+        center: ' z-10'
     }
 
     return(
         <div
             className={`${baseStyles} ${positionStyle[position]}`}>
 
-                <img src={img} className="md:h-[325px] md:w-[400px] px-2 py-10" alt={name}/>
+            <img src={img} className="md:h-[325px] md:w-[400px] px-2 py-10" alt={name}/>
 
-            <Heading size="largeXL" color="black" weight="black" classes="py-2 capitalize">{name}</Heading>
+            <Heading size="largeXL" color="black" weight="black" classes="md:py-2 capitalize">{name}</Heading>
             <Heading size="medium" color="blue" weight="semibold">{price}$/DAY</Heading>
             <Heading size="medium" color="blue">{year}</Heading>
 
