@@ -9,8 +9,7 @@ const Landing = () => {
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
     return(
-
-        <div className="max-md:h-screen bg-gradient-to-b from-gray-900 to-gray-400">
+        <div className="max-md:h-dvh bg-gradient-to-b from-gray-900 to-gray-400">
             <div className="mx-auto md:max-w-7xl max-md:py-32">
                     <Heading color="white" weight="black" size="landing" classes="text-center italic max-md:leading-[72px]">NEED A <span  className="text-blue-500">CAR?</span></Heading>
                     <img src="/assets/car-img-landing.png" alt="" className="md:-translate-y-52 md:max-w-full" draggable="false"/>
@@ -19,7 +18,6 @@ const Landing = () => {
                 </div>
             </div>
         </div>
-
     )
 }
 
