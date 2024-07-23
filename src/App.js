@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import Footer from "./components/Footer";
+import CarPage  from "./pages/CarPage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
+import Test from "./pages/Test";
+
+import React from "react";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+
+export default function App() {
+    return(
+        <Router>
+            <Navbar />
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route exact path="/test" element={<Test text="bruh"/>} />
+                <Route exact path="/contact" element={<Contact />} />
+                <Route exact path="/car-page" element={<CarPage />} />
+                <Route path="/car-page/:brand/:name/:price/:id/" element={<CarPage />} />
+                <Route path="*" element={<NotFound />} />
+            </Routes>
+            <Footer />
+        </Router>
+    );
 }
-
-export default App;
