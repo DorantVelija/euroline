@@ -21,7 +21,7 @@ To explore our fleet and book your next rental vehicle:
 
 ![GIF](https://github.com/DorantVelija/euroline/blob/main/ezgif.com-animated-gif-maker.gif)
 ## About Us
-[Include a brief description of the company, its mission, and any additional information that sets the service apart.]
+
 
 ## Contact Information
 For inquiries, assistance, or support, please contact us at.
