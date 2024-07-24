@@ -4,8 +4,8 @@ import React from 'react'
 const CTAScroll = () => {
     return (
         <div
-            className="w-screen py-32 transition-transform duration-500 transform hover:scale-95"
-            style={{backgroundImage: `url(${require('../assets/logos-scroll.png')})`}}
+            className="py-32 mt-20 w-screen transition-transform duration-200 transform"
+            style={{background: `url(${require('../assets/logos-scroll.png')})`}}
 
         ></div>
     )
