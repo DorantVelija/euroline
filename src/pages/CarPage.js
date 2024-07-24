@@ -43,12 +43,12 @@ const CarPage = () => {
                             <div className="flex flex-col">
                                 <div>
                                     <span className="title-font font-medium text-xl text-gray-900">From  </span>
-                                    <input type="datetime-local"/>
+                                    <input type="date"/>
                                 </div>
 
                                 <div>
                                     <span className="title-font font-medium text-xl text-gray-900">To  </span>
-                                    <input type="datetime-local"/>
+                                    <input type="date"/>
                                 </div>
 
                             </div>
