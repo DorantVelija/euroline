@@ -24,7 +24,7 @@ const CarPage = () => {
     return (
 
         <section className="text-gray-600 body-font overflow-hidden">
-            <div className="container px-5 pt-32 pb-72 mx-auto">
+            <div className="container px-5 pt-10 md:pt-32 pb-72 mx-auto">
                 <div className="lg:w-4/5 mx-auto flex flex-wrap">
                     <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
                           src="https://picsum.photos/400/" draggable="false"/>

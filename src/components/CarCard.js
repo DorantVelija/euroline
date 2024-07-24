@@ -29,7 +29,7 @@ const CarCard = ({img,name,brand,price, year, position}) => {
 
             <div className="flex flex-col items-stretch justify-between space-y-1 text-center mt-8">
                  <Link><Button size="large" color="secondary">Book Now</Button></Link>
-                <Link to={`/car-page/${brand}/${name}/${price}/${year}/`}><Button size="large" color="primary">View Car↗</Button></Link>
+                <a href={`/car-page/${brand}/${name}/${price}/${year}/`}><Button size="large" color="primary">View Car↗</Button></a>
             </div>
 
         </div>
