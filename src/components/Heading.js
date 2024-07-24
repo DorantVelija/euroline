@@ -11,7 +11,7 @@ const Heading = ({ size, color, weight, children, classes }) => {
         small: "text-md",
         medium: "text-2xl",
         large: "text-[2rem]",
-        largeXL: "text-[3rem]",
+        largeXL: "text-[1.6rem] md:text-[3rem]",
         largeXXL: "text-[4rem]",
         landing: "text-[90px] md:text-[140px]",
         h1: "text-[52px] md:text-[90px]"

@@ -27,7 +27,7 @@ const CarPage = () => {
         <section className="container mx-auto text-gray-600 body-font overflow-hidden">
             <div className="pt-10 md:pt-32 pb-72 mx-auto">
                 <div className="lg:w-4/5 mx-auto flex flex-wrap">
-                    <Carousel showArrows={true} showThumbs={false} className="max-w-[420px] mx-2">
+                    <Carousel showArrows={true} showThumbs={false} className="max-w-[421px] mx-2">
                         <div>
                             <img alt="ecommerce"
                                  className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
