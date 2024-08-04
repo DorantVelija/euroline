@@ -12,7 +12,7 @@ import Car4 from "../assets/car-img-4.png";
 
 const OurFleet = () => {
     return (
-        <div id="ourFleet" className="py-12 md:py-32">
+        <div id="ourFleet" className="py-6 md:py-24">
             <Heading color="black" weight="black" size="h1" classes="mb-8 text-center">OUR FLEET</Heading>
             <div className="flex justify-center">
                 <div className="grid md:grid-cols-2 xl:grid-cols-3 max-md:mx-4 max-md:-space-y-8">

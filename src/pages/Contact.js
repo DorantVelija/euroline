@@ -24,7 +24,7 @@ const Contact = () => {
                     className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
                     <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
                     <p className="leading-relaxed mb-5 text-gray-600">
-                    Post-ironic portland shabby chic echo park, banjo fashion axe
+                        We would love to hear from you!
                     </p>
                     <div className="relative mb-4">
                         <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
@@ -45,7 +45,7 @@ const Contact = () => {
                     </div>
                     <Button color="secondary">Button</Button>
                     <p className="text-xs text-gray-500 mt-3">
-                        Chicharrones blog helvetica normcore iceland tousled brook viral artisan.
+                        Your feedback helps us improve and serve you better.
                     </p>
                 </div>
             </div>
